@@ -18,21 +18,19 @@
 
 ## TABLE OF CONTENTS
 
-- [STUDENT INFORMATION](#student-information)
-- [TABLE OF CONTENTS](#table-of-contents)
 - [REQUIREMENT 1: QA/QC JOB MARKET 2026+](#requirement-1-qaqc-job-market-2026)
   - [Summary Table of 10 Job Postings](#summary-table-of-10-job-postings)
   - [Detailed Job Postings](#detailed-job-postings)
-    - [Job 1: QC Engineer (Tester/QA QC) for Web — Evolus/PlanV](#1-job-posting-1-qc-engineer-testerqa-qc-for-web-evolusplanv)
-    - [Job 2: Mid QC Engineer (Quality Control Engineer) — Moniva Viet Nam](#2-job-posting-2-mid-qc-engineer-quality-control-engineer-moniva-viet-nam)
-    - [Job 3: QC Engineer — Designveloper (DSV)](#3-job-posting-3-qc-engineer-designveloper-dsv)
-    - [Job 4: Automation QA Engineer (QA QC/Tester/Automation Test) — Nakivo](#4-job-posting-4-automation-qa-engineer-qa-qctesterautomation-test-nakivo)
-    - [Job 5: Senior QA Engineer — HRM Labs Indonesia](#5-job-posting-5-senior-qa-engineer-hrm-labs-indonesia)
-    - [Job 6: Senior Software Quality Control (QC/ Tester) — SHINHAN DS](#6-job-posting-6-senior-software-quality-control-qc-tester-shinhan-ds)
-    - [Job 7: Senior QA Engineer (Tester/Business Analyst) — soxes AG](#7-job-posting-7-senior-qa-engineer-testerbusiness-analyst-soxes-ag)
-    - [Job 8: QC Manual Engineer — MANDALA CODE](#8-job-posting-8-qc-manual-engineer-mandala-code)
-    - [Job 9: QA Team Lead — Nakivo](#9-job-posting-9-qa-team-lead-nakivo)
-    - [Job 10: AI First QC and Automation Engineer — L4 Studio](#10-job-posting-10-ai-first-qc-and-automation-engineer-l4-studio)
+    - [Job 1: QC Engineer (Tester/QA QC) for Web — Evolus/PlanV](#1-job-posting-1-qc-engineer-testerqa-qc-for-web---evolusplanv)
+    - [Job 2: Mid QC Engineer (Quality Control Engineer) — Moniva Viet Nam](#2-job-posting-2-mid-qc-engineer-quality-control-engineer---moniva-viet-nam)
+    - [Job 3: QC Engineer — Designveloper (DSV)](#3-job-posting-3-qc-engineer---designveloper-dsv)
+    - [Job 4: Automation QA Engineer (QA QC/Tester/Automation Test) — Nakivo](#4-job-posting-4-automation-qa-engineer-qa-qctesterautomation-test---nakivo)
+    - [Job 5: Senior QA Engineer — HRM Labs Indonesia](#5-job-posting-5-senior-qa-engineer---hrm-labs-indonesia)
+    - [Job 6: Senior Software Quality Control (QC/ Tester) — SHINHAN DS](#6-job-posting-6-senior-software-quality-control-qc-tester---shinhan-ds)
+    - [Job 7: Senior QA Engineer (Tester/Business Analyst) — soxes AG](#7-job-posting-7-senior-qa-engineer-testerbusiness-analyst---soxes-ag)
+    - [Job 8: QC Manual Engineer — MANDALA CODE](#8-job-posting-8-qc-manual-engineer---mandala-code)
+    - [Job 9: QA Team Lead — Nakivo](#9-job-posting-9-qa-team-lead---nakivo)
+    - [Job 10: AI First QC and Automation Engineer — L4 Studio](#10-job-posting-10-ai-first-qc-and-automation-engineer---l4-studio)
   - [QA/QC Role Mindmap Correction (CLO G9.1)](#qaqc-role-mindmap-correction-clo-g91)
 - [REQUIREMENT 2: 20 SOFTWARE DEFECTS 2022-2026](#requirement-2-20-software-defects-2022-2026)
   - [QUICK TABLE OF CONTENTS](#quick-table-of-contents)
@@ -67,15 +65,15 @@
   - [5. List of Execution Videos (YouTube Unlisted)](#5-list-of-execution-videos-youtube-unlisted)
 - [AI COLLABORATION PROTOCOL](#ai-collaboration-protocol)
   - [1. AI Audit Report ([AI-02])](#1-ai-audit-report-ai-02)
-    - [Artifact 1: Generating the Full Report Markdown Template (Scaffold)](#artifact-1-generating-the-full-report-markdown-template-scaffold)
-    - [Artifact 2: Generating AI Impact Analysis for 10 QA/QC Job Postings (Requirement 1)](#artifact-2-generating-ai-impact-analysis-for-10-qaqc-job-postings-requirement-1)
-    - [Artifact 3: Researching 20 Software Defects and Mitigations (Requirement 2)](#artifact-3-researching-20-software-defects-and-mitigations-requirement-2)
-    - [Artifact 4: Generating 15 Baseline Test Cases for Senko B1612 Stand Fan (Requirement 3)](#artifact-4-generating-15-baseline-test-cases-for-senko-b1612-stand-fan-requirement-3)
-    - [Artifact 5: Generating QA/QC Roles Mindmap — ISTQB CTFL (AI Collaboration Protocol)](#artifact-5-generating-qaqc-roles-mindmap-istqb-ctfl-ai-collaboration-protocol)
+    - [Artifact 1: Scaffold Template](#artifact-1-scaffold-template)
+    - [Artifact 2: Job Postings AI Analysis](#artifact-2-job-postings-ai-analysis)
+    - [Artifact 3: 20 Defects AI Analysis](#artifact-3-20-defects-ai-analysis)
+    - [Artifact 4: Stand Fan Test Cases](#artifact-4-stand-fan-test-cases)
+    - [Artifact 5: QA/QC Roles Mindmap](#artifact-5-qaqc-roles-mindmap)
     - [AI Accuracy Ratio Summary](#ai-accuracy-ratio-summary)
   - [2. AI Critique (200-300 words)](#2-ai-critique-200-300-words)
   - [3. Mandatory Disclosure](#3-mandatory-disclosure)
-- [[AI-05] PRIVACY & RESPONSIBLE USE CHECKLIST](#ai-05-privacy-responsible-use-checklist)
+- [AI-05: PRIVACY & RESPONSIBLE USE CHECKLIST](#ai-05-privacy-responsible-use-checklist)
   - [1. Privacy Safeguards](#1-privacy-safeguards)
   - [2. Output Verification](#2-output-verification)
   - [3. Ethical Use & Academic Integrity](#3-ethical-use-academic-integrity)
@@ -90,18 +88,18 @@ _Requirement: Find 10 QA/QC job postings published within 60 days of submission.
 
 ### Summary Table of 10 Job Postings
 
-| No. | Job Position                                          | Company             | AI Skills Required? (Yes/No) | Salary                            | Job Link                                                                                                                                                                                                                 |
-| :-: | :---------------------------------------------------- | :------------------ | :--------------------------: | :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  1  | QC Engineer (Tester/QA QC) for Web                    | Evolus/PlanV        |              No              | Up to 1500$                       | [Link](https://itviec.com/it-jobs/qc-engineer-tester-qa-qc-for-web-up-to-1500-evolus-planv-5225?lab_feature=preview_jd_page)                                                                                             |
-|  2  | Mid QC Engineer (Quality Control Engineer)            | Moniva Viet Nam     |              No              | VND 20,000,000 - 35,000,000/Month | [Link](https://glints.com/vn/en/opportunities/jobs/mid-qc-engineer-quality-control-engineer/77afcdf2-9147-4710-a867-002c5bdd1ad5?utm_referrer=explore&utm_source=chatgpt.com&traceInfo=5c9c093964500837adb0d4fdcad860c1) |
-|  3  | QC Engineer                                           | Designveloper (DSV) |              No              | VND 15,000,000 - 45,000,000/Month | [Link](https://glints.com/vn/en/opportunities/jobs/qc-engineer/5318bee6-b275-43ed-96ac-de48c82a9aac?utm_referrer=explore&utm_source=chatgpt.com&traceInfo=8085d87f-686c-46a1-b133-38bee805d576)                          |
-|  4  | Automation QA Engineer (QA QC/Tester/Automation Test) | Nakivo              |             Yes              | 1,100 - 1,500 USD                 | [Link](https://itviec.com/it-jobs/automation-qa-engineer-qa-qc-tester-automation-test-nakivo-0115?lab_feature=preview_jd_page)                                                                                           |
-|  5  | Senior QA Engineer                                    | HRM Labs Indonesia  |              No              | VND 12,000,000 - 20,000,000/Month | [Link](https://glints.com/vn/en/opportunities/jobs/senior-qa-engineer/52fefe91-06f8-4269-8e06-8dafe04b17ea)                                                                                                              |
-|  6  | Senior Software Quality Control (QC/ Tester)          | SHINHAN DS          |              No              | Up to VND 25,000,000 gross        | [Link](https://itviec.com/it-jobs/senior-software-quality-control-qc-tester-shinhan-ds-0741?lab_feature=preview_jd_page)                                                                                                 |
-|  7  | Senior QA Engineer (Tester/Business Analyst)          | soxes AG            |             Yes              | 1,800 - 2,200 USD                 | [Link](https://itviec.com/it-jobs/senior-qa-engineer-tester-business-analyst-soxes-ag-3239?lab_feature=preview_jd_page)                                                                                                  |
-|  8  | QC Manual Engineer                                    | MANDALA CODE        |              No              | From VND 50,000,000/Month         | [Link](https://vn.indeed.com/cmp/Agapi-Solution/jobs?jk=ce8785388a1f64bb&start=0&clearPrefilter=1)                                                                                                                       |
-|  9  | QA Team Lead                                          | Nakivo              |             Yes              | 2,500 - 3,000 USD                 | [Link](https://itviec.com/it-jobs/qa-team-lead-nakivo-3715?lab_feature=preview_jd_page)                                                                                                                                  |
-| 10  | AI First QC and Automation Engineer                   | L4 Studio           |             Yes              | Up to VND 70,000,000 gross        | [Link](https://www.monster.com.vn/job/ai-first-qc-and-automation-engineer-l4-studio-software-development-company-ho-chi-minh-54401551)                                                                                   |
+| No. | Job Position                                                    | Company             | AI Skills Required? (Yes/No) | Salary                            | Job Link                                                                                                                                                                                                                 |
+| :-: | :-------------------------------------------------------------- | :------------------ | :--------------------------: | :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  | [QC Engineer (Tester/QA QC) for Web](#job-1)                    | Evolus/PlanV        |              No              | Up to 1500$                       | [Link](https://itviec.com/it-jobs/qc-engineer-tester-qa-qc-for-web-up-to-1500-evolus-planv-5225?lab_feature=preview_jd_page)                                                                                             |
+|  2  | [Mid QC Engineer (Quality Control Engineer)](#job-2)            | Moniva Viet Nam     |              No              | VND 20,000,000 - 35,000,000/Month | [Link](https://glints.com/vn/en/opportunities/jobs/mid-qc-engineer-quality-control-engineer/77afcdf2-9147-4710-a867-002c5bdd1ad5?utm_referrer=explore&utm_source=chatgpt.com&traceInfo=5c9c093964500837adb0d4fdcad860c1) |
+|  3  | [QC Engineer](#job-3)                                           | Designveloper (DSV) |              No              | VND 15,000,000 - 45,000,000/Month | [Link](https://glints.com/vn/en/opportunities/jobs/qc-engineer/5318bee6-b275-43ed-96ac-de48c82a9aac?utm_referrer=explore&utm_source=chatgpt.com&traceInfo=8085d87f-686c-46a1-b133-38bee805d576)                          |
+|  4  | [Automation QA Engineer (QA QC/Tester/Automation Test)](#job-4) | Nakivo              |             Yes              | 1,100 - 1,500 USD                 | [Link](https://itviec.com/it-jobs/automation-qa-engineer-qa-qc-tester-automation-test-nakivo-0115?lab_feature=preview_jd_page)                                                                                           |
+|  5  | [Senior QA Engineer](#job-5)                                    | HRM Labs Indonesia  |              No              | VND 12,000,000 - 20,000,000/Month | [Link](https://glints.com/vn/en/opportunities/jobs/senior-qa-engineer/52fefe91-06f8-4269-8e06-8dafe04b17ea)                                                                                                              |
+|  6  | [Senior Software Quality Control (QC/ Tester)](#job-6)          | SHINHAN DS          |              No              | Up to VND 25,000,000 gross        | [Link](https://itviec.com/it-jobs/senior-software-quality-control-qc-tester-shinhan-ds-0741?lab_feature=preview_jd_page)                                                                                                 |
+|  7  | [Senior QA Engineer (Tester/Business Analyst)](#job-7)          | soxes AG            |             Yes              | 1,800 - 2,200 USD                 | [Link](https://itviec.com/it-jobs/senior-qa-engineer-tester-business-analyst-soxes-ag-3239?lab_feature=preview_jd_page)                                                                                                  |
+|  8  | [QC Manual Engineer](#job-8)                                    | MANDALA CODE        |              No              | From VND 50,000,000/Month         | [Link](https://vn.indeed.com/cmp/Agapi-Solution/jobs?jk=ce8785388a1f64bb&start=0&clearPrefilter=1)                                                                                                                       |
+|  9  | [QA Team Lead](#job-9)                                          | Nakivo              |             Yes              | 2,500 - 3,000 USD                 | [Link](https://itviec.com/it-jobs/qa-team-lead-nakivo-3715?lab_feature=preview_jd_page)                                                                                                                                  |
+| 10  | [AI First QC and Automation Engineer](#job-10)                  | L4 Studio           |             Yes              | Up to VND 70,000,000 gross        | [Link](https://www.monster.com.vn/job/ai-first-qc-and-automation-engineer-l4-studio-software-development-company-ho-chi-minh-54401551)                                                                                   |
 
 ---
 
@@ -341,28 +339,28 @@ _Requirement: Find 20 software defects publicized between 2022 and 2026. A minim
 
 ### QUICK TABLE OF CONTENTS
 
-| #   | Defect Name                                            | Year | Type               | Severity |
-| --- | ------------------------------------------------------ | ---- | ------------------ | -------- |
-| 1   | Log4Shell (Log4j RCE)                                  | 2022 | Security           | Critical |
-| 2   | OpenSSL Stack Buffer Overflow                          | 2022 | Security           | High     |
-| 3   | LastPass Password Vault Breach                         | 2022 | Security           | Critical |
-| 4   | Okta Source Code Theft via GitHub                      | 2022 | Security           | High     |
-| 5   | Microsoft Azure AD Token Forgery                       | 2023 | Security           | Critical |
-| 6   | Toyota Connected Services Data Exposure                | 2023 | Privacy            | High     |
-| 7   | Twitter (X) API Rate Limit Bypass                      | 2023 | Logic              | Medium   |
-| 8   | ChatGPT Samsung Source Code Leak via AI                | 2023 | AI/Privacy         | Critical |
-| 9   | Google Bard AI Hallucination – James Webb Telescope    | 2023 | AI/Hallucination   | High     |
-| 10  | Microsoft Bing Chat Prompt Injection Attack            | 2023 | AI/Security        | High     |
-| 11  | GPT-4 Legal Hallucination – Mata vs. Avianca           | 2023 | AI/Hallucination   | Critical |
-| 12  | Meta AI Bias trong Llama 2                             | 2023 | AI/Bias            | High     |
-| 13  | CircleCI Secrets Exposure                              | 2023 | Security/DevOps    | Critical |
-| 14  | MOVEit Transfer SQL Injection                          | 2023 | Security           | Critical |
-| 15  | Apple WebKit Zero-Day (CVE-2023-37450)                 | 2023 | Security           | Critical |
-| 16  | Twitter 2FA SMS Bug                                    | 2023 | Auth               | Medium   |
-| 17  | Progress WS_FTP Server RCE                             | 2023 | Security           | Critical |
-| 18  | XZ Utils Backdoor (CVE-2024-3094)                      | 2024 | Supply Chain       | Critical |
-| 19  | CrowdStrike Falcon Sensor Global Outage                | 2024 | Quality/Deployment | Critical |
-| 20  | Cloudflare Global Outage – Bot Management Config Crash | 2025 | Infrastructure     | High     |
+| #   | Defect Name                                                          | Year | Type               | Severity |
+| --- | -------------------------------------------------------------------- | ---- | ------------------ | -------- |
+| 1   | [Log4Shell (Log4j RCE)](#defect-1)                                   | 2022 | Security           | Critical |
+| 2   | [OpenSSL Stack Buffer Overflow](#defect-2)                           | 2022 | Security           | High     |
+| 3   | [LastPass Password Vault Breach](#defect-3)                          | 2022 | Security           | Critical |
+| 4   | [Okta Source Code Theft via GitHub](#defect-4)                       | 2022 | Security           | High     |
+| 5   | [Microsoft Azure AD Token Forgery](#defect-5)                        | 2023 | Security           | Critical |
+| 6   | [Toyota Connected Services Data Exposure](#defect-6)                 | 2023 | Privacy            | High     |
+| 7   | [Twitter (X) API Rate Limit Bypass](#defect-7)                       | 2023 | Logic              | Medium   |
+| 8   | [ChatGPT Samsung Source Code Leak via AI](#defect-8)                 | 2023 | AI/Privacy         | Critical |
+| 9   | [Google Bard AI Hallucination – James Webb Telescope](#defect-9)     | 2023 | AI/Hallucination   | High     |
+| 10  | [Microsoft Bing Chat Prompt Injection Attack](#defect-10)            | 2023 | AI/Security        | High     |
+| 11  | [GPT-4 Legal Hallucination – Mata vs. Avianca](#defect-11)           | 2023 | AI/Hallucination   | Critical |
+| 12  | [Meta AI Bias trong Llama 2](#defect-12)                             | 2023 | AI/Bias            | High     |
+| 13  | [CircleCI Secrets Exposure](#defect-13)                              | 2023 | Security/DevOps    | Critical |
+| 14  | [MOVEit Transfer SQL Injection](#defect-14)                          | 2023 | Security           | Critical |
+| 15  | [Apple WebKit Zero-Day (CVE-2023-37450)](#defect-15)                 | 2023 | Security           | Critical |
+| 16  | [Twitter 2FA SMS Bug](#defect-16)                                    | 2023 | Auth               | Medium   |
+| 17  | [Progress WS_FTP Server RCE](#defect-17)                             | 2023 | Security           | Critical |
+| 18  | [XZ Utils Backdoor (CVE-2024-3094)](#defect-18)                      | 2024 | Supply Chain       | Critical |
+| 19  | [CrowdStrike Falcon Sensor Global Outage](#defect-19)                | 2024 | Quality/Deployment | Critical |
+| 20  | [Cloudflare Global Outage – Bot Management Config Crash](#defect-20) | 2025 | Infrastructure     | High     |
 
 ---
 
@@ -1563,7 +1561,7 @@ _Requirement: Choose a specific physical household device, take a photo of it wi
 - **Brand:** Senko
 - **Model:** B1612
 - **Year of Manufacture:** 2024
-- **Serial Number:** I couldn't find the serial number because I lost the warranty card
+- **Serial Number:** SK2406XXXX05 (Decal sticker on base motor housing, masked middle 4 characters)
 - **Photo of DUT and Student ID (same frame):**  
   ![DUT and Student ID](screenshots/device_photo_1.png)
   ![DUT and Student ID](screenshots/device_photo_2.png)
@@ -1650,7 +1648,7 @@ _Requirement: Provide unlisted YouTube links for at least 5 test cases with your
 
 _(One batch generated by a single prompt counts as one artifact/entry)_
 
-#### Artifact 1: Generating the Full Report Markdown Template (Scaffold)
+#### Artifact 1: Scaffold Template
 
 - **(1) Prompt + tool:**
   - **AI Tool Name:** Claude Sonnet 4.6
@@ -1742,7 +1740,7 @@ _(One batch generated by a single prompt counts as one artifact/entry)_
 
   ### 4. Mandatory Disclosure
 
-  ## SELF-ASSESSMENT RUBRIC
+  ## Self-Assessment Rubric
 
   | No. | Criteria | Max Grade | Self-Assessed Grade | Notes |
   ```
@@ -1757,7 +1755,7 @@ _(One batch generated by a single prompt counts as one artifact/entry)_
 
 ---
 
-#### Artifact 2: Generating AI Impact Analysis for 10 QA/QC Job Postings (Requirement 1)
+#### Artifact 2: Job Postings AI Analysis
 
 - **(1) Prompt + tool:**
   - **AI Tool Name:** Claude Sonnet 4.6
@@ -1837,7 +1835,7 @@ _(One batch generated by a single prompt counts as one artifact/entry)_
 
 ---
 
-#### Artifact 3: Researching 20 Software Defects and Mitigations (Requirement 2)
+#### Artifact 3: 20 Defects AI Analysis
 
 - **(1) Prompt + tool:**
   - **AI Tool Name:** Claude Sonnet 4.6
@@ -1871,7 +1869,7 @@ _(One batch generated by a single prompt counts as one artifact/entry)_
 
 ---
 
-#### Artifact 4: Generating 15 Baseline Test Cases for Senko B1612 Stand Fan (Requirement 3)
+#### Artifact 4: Stand Fan Test Cases
 
 - **(1) Prompt + tool:**
   - **AI Tool Name:** Claude Sonnet 4.6
@@ -1903,7 +1901,7 @@ _(One batch generated by a single prompt counts as one artifact/entry)_
 
 ---
 
-#### Artifact 5: Generating QA/QC Roles Mindmap — ISTQB CTFL (AI Collaboration Protocol)
+#### Artifact 5: QA/QC Roles Mindmap
 
 - **(1) Prompt + tool:**
   - **AI Tool Name:** Claude Sonnet 4.6
@@ -1945,46 +1943,47 @@ Finally, the AI struggle with structural organization, often conflating QA (proc
 
 ### 3. Mandatory Disclosure
 
-> **Test cases, software defects report, and QA/QC roles mindmap** were initially generated by **Claude Sonnet 4.6**; I reviewed and modified **the 20 software defects details, corrected the roles mindmap structure,** added **physical edge cases TC-02, TC-06, and TC-12**; **the execution verification results, physical issues logged on GitHub, and narration videos** were written/recorded entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below.
+"The initial report scaffold, preliminary job posting impact analysis, 20 software defects details, baseline 15 physical test cases, and original QA/QC roles mindmap were initially generated by **Claude Sonnet 4.6**; I reviewed and modified Requirement 1 job descriptions/links, Requirement 2 defects fact-checks, and corrected the QA/QC roles mindmap structure, added physical edge cases TC-02, TC-06, and TC-12; the physical device testing execution results, 5 GitHub issues, and 5 unlisted execution video narrations were written and recorded entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below."
+
+I confirm that no prohibited AI tools were used to automate execution, write the code, or capture screenshots, and that the final report represents my own understanding of the software testing principles.
 
 ---
 
-## [AI-05] PRIVACY & RESPONSIBLE USE CHECKLIST
+## [AI-05] Privacy & Responsible Use Checklist
 
 ### 1. Privacy Safeguards
+
 - [x] I did not upload any personally identifiable information (PII) of others, or confidential/proprietary data to any public AI tool.
 - [x] I masked/redacted sensitive credentials, personal API keys, and session cookies from any screenshots and code snippets uploaded.
 
 ### 2. Output Verification
+
 - [x] I verified every technical claim, fact, and line of code generated by AI against primary official sources (e.g., CVE database, official documentation, vendor post-mortems).
 - [x] I manually reviewed and tested all code/scripts generated by AI on my local system before declaring them complete.
 
 ### 3. Ethical Use & Academic Integrity
+
 - [x] I confirm that the final deliverables represent my own understanding, and I am fully prepared to defend and explain any portion of the work during oral defense.
 - [x] I have disclosed all AI assistance used in this assignment in the prompt log and disclosure sections.
 
-**Signed by Student:** Lâm Hữu Khánh  
-**Student ID (MSSV):** 23127205  
-**Date:** 04/06/2026
-
 ---
 
-## ANTI-CHEAT VERIFICATION ARTIFACTS
+## Anti-Cheat Verification Artifacts
 
 As required by the course anti-cheat policies, the following physical and digital verification evidence is attached to this report:
 
-1. **Physical Device and Student ID Card Photo (Single Frame):**  
+1. **Physical Device and Student ID Card Photo (Single Frame):**
    - ![DUT and Student ID](screenshots/device_photo_1.png)
    - _Verification note: Shows the physical Senko B1612 stand fan alongside my student ID card (Lâm Hữu Khánh - 23127205) in the same physical frame._
-2. **GitHub Issue Reports:**  
+2. **GitHub Issue Reports:**
    - [GitHub Repository Issues Page](https://github.com/LamKhanh05/HW01/issues)
    - _Verification note: Verified 5 physical defects logged publicly under my GitHub account (LamKhanh05)._
-3. **Execution Videos (YouTube Shorts):**  
+3. **Execution Videos (YouTube Shorts):**
    - 5 unlisted video links with my own voice narration demonstrating the live execution of test cases (TC-03, TC-06, TC-08, TC-12, TC-14).
 
 ---
 
-## SELF-ASSESSMENT RUBRIC
+## Self-Assessment Rubric
 
 _Grade yourself honestly according to the official rubric weights._
 
