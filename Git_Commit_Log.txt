@@ -1,89 +1,198 @@
-﻿commit d4a3ebcc99f30e0f9661d1fe6c48a802fe187302
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 19:02:55 2026 +0700
-
-    docs(self-assessment): commit self-assessment PDF report
-
-commit ed4997e638cc55fbd20623325247daa0fc94c2aa
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 19:01:08 2026 +0700
-
-    docs(pdf): commit final compiled PDFs and verification screenshots
-
-commit b994de6540113296b0000f817058e3756ebb2975
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 19:00:58 2026 +0700
-
-    docs(privacy): simplify AI-05 headings and add prompt log and disclosure links
-
-commit 7cbeb6d6d0980f586a296c9d8d10ef94422f4d43
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 19:00:40 2026 +0700
-
-    docs(audit): sync prompt log and raw output details for Artifact 2 & 3
-
-commit 3a4b3e272c9e2ff57aed84bce7c2a96e2c1c18ec
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 16:39:10 2026 +0700
-
-    docs(templates): add separate AI-02, AI-03, AI-05 documents and Self_Assessment.md
-
-commit 6303c64f7b41d4535211fdc44ce99828d72faaaf
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 16:39:04 2026 +0700
-
-    docs(report): rename main report to Report.md and add FullPromptLog.md
-
-commit 4b499a444879168e1f771d15cb23a854688c6526
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 16:38:16 2026 +0700
-
-    docs(anti-cheat): add device photo, video links list, and mindmap files
-
-commit 1e07093a062fa4829ccefd40d0e6a4498b703afe
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 16:38:11 2026 +0700
-
-    refactor(excel): rename test suites and reports to standard names
-
-commit a6fce43dd3acbb1c9c3cbb376578e29939023d4f
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 15:18:57 2026 +0700
-
-    feat(testing): add Excel test suites and summary report
-
-commit 6614b1dfe231bbb6b28bf66ecdc5d6e8afc17be4
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 15:18:17 2026 +0700
-
-    docs(report): update full assignment report details and Table of Contents
-
-commit 31ff74e6c796f88285918d0a8c7f19ae85379536
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 15:18:07 2026 +0700
-
-    docs(assets): add QA/QC roles mindmap screenshots
-
-commit 9da695b6ca10582c9b7a2c26bfd4033a41535cd1
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Thu Jun 4 10:59:51 2026 +0700
-
-    Req 3: Added test cases and video links for physical-product testing
-
-commit 508b8ee3a7f93266333789c9216a106e24916f37
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Wed Jun 3 21:16:55 2026 +0700
-
-    Req 2: Added 20 software defects details
-
-commit e7ac06bc3137689e67d9d30b10c626cc5ec0ff25
-Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
-Date:   Tue Jun 2 21:59:25 2026 +0700
-
-    Req 1: Added 10 job listings screenshots and details
-
-commit 6696c203785aa2812497258529c211727c3617ac
-Author: daoking05 <152291219+LamKhanh05@users.noreply.github.com>
-Date:   Mon Jun 1 20:41:50 2026 +0700
-
-    Initial commit
+﻿* commit 10e43a15cb8efb63cc7af1e29d0307afb468de96
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 19:05:23 2026 +0700
+| 
+|     docs(git): generate and commit final Git commit log file
+| 
+|  Git_Commit_Log.txt | 89 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  1 file changed, 89 insertions(+)
+| 
+* commit d4a3ebcc99f30e0f9661d1fe6c48a802fe187302
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 19:02:55 2026 +0700
+| 
+|     docs(self-assessment): commit self-assessment PDF report
+| 
+|  Self_Assessment.pdf | Bin 0 -> 47667 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit ed4997e638cc55fbd20623325247daa0fc94c2aa
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 19:01:08 2026 +0700
+| 
+|     docs(pdf): commit final compiled PDFs and verification screenshots
+| 
+|  AI_02_Audit_Report.pdf      | Bin 0 -> 4022294 bytes
+|  AI_03_Disclosure_Form.pdf   | Bin 0 -> 47544 bytes
+|  AI_05_Privacy_Checklist.pdf | Bin 0 -> 46415 bytes
+|  Bug_Screenshot.png          | Bin 0 -> 312614 bytes
+|  Execution_Videos.pdf        | Bin 0 -> 47914 bytes
+|  FullPromptLog.pdf           | Bin 0 -> 87612 bytes
+|  Report.pdf                  | Bin 0 -> 34297805 bytes
+|  7 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit b994de6540113296b0000f817058e3756ebb2975
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 19:00:58 2026 +0700
+| 
+|     docs(privacy): simplify AI-05 headings and add prompt log and disclosure links
+| 
+|  AI_05_Privacy_Checklist.md | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* commit 7cbeb6d6d0980f586a296c9d8d10ef94422f4d43
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 19:00:40 2026 +0700
+| 
+|     docs(audit): sync prompt log and raw output details for Artifact 2 & 3
+| 
+|  AI_02_Audit_Report.md |  88 ++++++++++++++++++++++++++++++-----------
+|  Report.md             | 101 +++++++++++++++++++++++++++++++++++-------------
+|  2 files changed, 140 insertions(+), 49 deletions(-)
+| 
+* commit 3a4b3e272c9e2ff57aed84bce7c2a96e2c1c18ec
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 16:39:10 2026 +0700
+| 
+|     docs(templates): add separate AI-02, AI-03, AI-05 documents and Self_Assessment.md
+| 
+|  AI_02_Audit_Report.md      | 297 +++++++++++++++++++++++++++++++++++++++++++
+|  AI_03_Disclosure_Form.md   |  14 ++
+|  AI_05_Privacy_Checklist.md |  18 +++
+|  Self_Assessment.md         |  22 ++++
+|  4 files changed, 351 insertions(+)
+| 
+* commit 6303c64f7b41d4535211fdc44ce99828d72faaaf
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 16:39:04 2026 +0700
+| 
+|     docs(report): rename main report to Report.md and add FullPromptLog.md
+| 
+|  FullPromptLog.md             |  87 ++++++++++++++++++++++++++
+|  Bao_Cao_HW01.md => Report.md | 139 ++++++++++++++++++++---------------------
+|  2 files changed, 156 insertions(+), 70 deletions(-)
+| 
+* commit 4b499a444879168e1f771d15cb23a854688c6526
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 16:38:16 2026 +0700
+| 
+|     docs(anti-cheat): add device photo, video links list, and mindmap files
+| 
+|  Device.jpg          | Bin 0 -> 5466801 bytes
+|  Execution_Videos.md |   7 ++++++
+|  QA_QC_Mindmap.md    |  65 ++++++++++++++++++++++++++++++++++++++++++++++++++
+|  QA_QC_Mindmap.png   | Bin 0 -> 2651146 bytes
+|  4 files changed, 72 insertions(+)
+| 
+* commit 1e07093a062fa4829ccefd40d0e6a4498b703afe
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 16:38:11 2026 +0700
+| 
+|     refactor(excel): rename test suites and reports to standard names
+| 
+|  Checklist_HW01.xlsx => Checklist.xlsx                   | Bin
+|  Test_Cases_HW01.xlsx => TestCases.xlsx                  | Bin
+|  Test_Summary_Report_HW01.xlsx => TestSummaryReport.xlsx | Bin
+|  3 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit a6fce43dd3acbb1c9c3cbb376578e29939023d4f
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 15:18:57 2026 +0700
+| 
+|     feat(testing): add Excel test suites and summary report
+| 
+|  Checklist_HW01.xlsx           | Bin 0 -> 6320 bytes
+|  Test_Cases_HW01.xlsx          | Bin 8894 -> 8200 bytes
+|  Test_Summary_Report_HW01.xlsx | Bin 0 -> 7297 bytes
+|  3 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 6614b1dfe231bbb6b28bf66ecdc5d6e8afc17be4
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 15:18:17 2026 +0700
+| 
+|     docs(report): update full assignment report details and Table of Contents
+| 
+|  Bao_Cao_HW01.md | 470 +++++++++++++++++++++++++++++++++++++++++++++++-------
+|  1 file changed, 410 insertions(+), 60 deletions(-)
+| 
+* commit 31ff74e6c796f88285918d0a8c7f19ae85379536
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 15:18:07 2026 +0700
+| 
+|     docs(assets): add QA/QC roles mindmap screenshots
+| 
+|  screenshots/qa_qc_mindmap_corrected.png | Bin 0 -> 2651146 bytes
+|  screenshots/qa_qc_mindmap_original.png  | Bin 0 -> 2389489 bytes
+|  2 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 9da695b6ca10582c9b7a2c26bfd4033a41535cd1
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Thu Jun 4 10:59:51 2026 +0700
+| 
+|     Req 3: Added test cases and video links for physical-product testing
+| 
+|  Bao_Cao_HW01.md                         |  89 +++++++++++++++++++-----------
+|  Test_Cases_HW01.xlsx                    | Bin 0 -> 8894 bytes
+|  screenshots/ai_miss_edge_1.png          | Bin 0 -> 433985 bytes
+|  screenshots/ai_miss_edge_2.png          | Bin 0 -> 440354 bytes
+|  screenshots/ai_miss_edge_3.png          | Bin 0 -> 419651 bytes
+|  screenshots/ai_original_testcases_1.png | Bin 0 -> 439908 bytes
+|  screenshots/ai_original_testcases_2.png | Bin 0 -> 468606 bytes
+|  screenshots/ai_original_testcases_3.png | Bin 0 -> 447788 bytes
+|  screenshots/ai_original_testcases_4.png | Bin 0 -> 459549 bytes
+|  screenshots/ai_original_testcases_5.png | Bin 0 -> 415489 bytes
+|  screenshots/device_photo_1.png          | Bin 0 -> 4389381 bytes
+|  screenshots/device_photo_2.png          | Bin 0 -> 5466801 bytes
+|  screenshots/device_photo_3.png          | Bin 0 -> 3237164 bytes
+|  screenshots/github_issues.png           | Bin 0 -> 312614 bytes
+|  14 files changed, 56 insertions(+), 33 deletions(-)
+| 
+* commit 508b8ee3a7f93266333789c9216a106e24916f37
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Wed Jun 3 21:16:55 2026 +0700
+| 
+|     Req 2: Added 20 software defects details
+| 
+|  Bao_Cao_HW01.md | 1816 ++++++++++++++++++++++++++++++++++++++++++++---------
+|  1 file changed, 1520 insertions(+), 296 deletions(-)
+| 
+* commit e7ac06bc3137689e67d9d30b10c626cc5ec0ff25
+| Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+| Date:   Tue Jun 2 21:59:25 2026 +0700
+| 
+|     Req 1: Added 10 job listings screenshots and details
+| 
+|  Bao_Cao_HW01.md         | 402 ++++++++++++++++++++++++++++++++++++++++++++++
+|  screenshots/job01_1.png | Bin 0 -> 647178 bytes
+|  screenshots/job01_2.png | Bin 0 -> 625019 bytes
+|  screenshots/job02_1.png | Bin 0 -> 516206 bytes
+|  screenshots/job02_2.png | Bin 0 -> 500779 bytes
+|  screenshots/job02_3.png | Bin 0 -> 463873 bytes
+|  screenshots/job03_1.png | Bin 0 -> 497845 bytes
+|  screenshots/job03_2.png | Bin 0 -> 516719 bytes
+|  screenshots/job04_1.png | Bin 0 -> 596221 bytes
+|  screenshots/job04_2.png | Bin 0 -> 643934 bytes
+|  screenshots/job05_1.png | Bin 0 -> 534605 bytes
+|  screenshots/job05_2.png | Bin 0 -> 462688 bytes
+|  screenshots/job06_1.png | Bin 0 -> 605952 bytes
+|  screenshots/job06_2.png | Bin 0 -> 594925 bytes
+|  screenshots/job06_3.png | Bin 0 -> 571323 bytes
+|  screenshots/job07_1.png | Bin 0 -> 601305 bytes
+|  screenshots/job07_2.png | Bin 0 -> 567629 bytes
+|  screenshots/job08_1.png | Bin 0 -> 543934 bytes
+|  screenshots/job08_2.png | Bin 0 -> 551014 bytes
+|  screenshots/job09_1.png | Bin 0 -> 1015039 bytes
+|  screenshots/job09_2.png | Bin 0 -> 603426 bytes
+|  screenshots/job09_3.png | Bin 0 -> 595614 bytes
+|  screenshots/job10_1.png | Bin 0 -> 684391 bytes
+|  screenshots/job10_2.png | Bin 0 -> 487251 bytes
+|  24 files changed, 402 insertions(+)
+| 
+* commit 6696c203785aa2812497258529c211727c3617ac
+  Author: daoking05 <152291219+LamKhanh05@users.noreply.github.com>
+  Date:   Mon Jun 1 20:41:50 2026 +0700
+  
+      Initial commit
+  
+   LICENSE | 21 +++++++++++++++++++++
+   1 file changed, 21 insertions(+)
