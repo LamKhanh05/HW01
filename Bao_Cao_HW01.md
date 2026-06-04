@@ -18,11 +18,69 @@
 
 ## TABLE OF CONTENTS
 
-1. [Requirement 1: QA/QC Job Market 2026+](#requirement-1-qaqc-job-market-2026)
-2. [Requirement 2: 20 Software Defects 2022–2026](#requirement-2-20-software-defects-20222026)
-3. [Requirement 3: Test Cases for One Physical Product](#requirement-3-test-cases-for-one-physical-product)
-4. [AI Collaboration Protocol](#ai-collaboration-protocol)
-5. [Self-Assessment Rubric](#self-assessment-rubric)
+- [STUDENT INFORMATION](#student-information)
+- [TABLE OF CONTENTS](#table-of-contents)
+- [REQUIREMENT 1: QA/QC JOB MARKET 2026+](#requirement-1-qaqc-job-market-2026)
+  - [Summary Table of 10 Job Postings](#summary-table-of-10-job-postings)
+  - [Detailed Job Postings](#detailed-job-postings)
+    - [Job 1: QC Engineer (Tester/QA QC) for Web — Evolus/PlanV](#1-job-posting-1-qc-engineer-testerqa-qc-for-web-evolusplanv)
+    - [Job 2: Mid QC Engineer (Quality Control Engineer) — Moniva Viet Nam](#2-job-posting-2-mid-qc-engineer-quality-control-engineer-moniva-viet-nam)
+    - [Job 3: QC Engineer — Designveloper (DSV)](#3-job-posting-3-qc-engineer-designveloper-dsv)
+    - [Job 4: Automation QA Engineer (QA QC/Tester/Automation Test) — Nakivo](#4-job-posting-4-automation-qa-engineer-qa-qctesterautomation-test-nakivo)
+    - [Job 5: Senior QA Engineer — HRM Labs Indonesia](#5-job-posting-5-senior-qa-engineer-hrm-labs-indonesia)
+    - [Job 6: Senior Software Quality Control (QC/ Tester) — SHINHAN DS](#6-job-posting-6-senior-software-quality-control-qc-tester-shinhan-ds)
+    - [Job 7: Senior QA Engineer (Tester/Business Analyst) — soxes AG](#7-job-posting-7-senior-qa-engineer-testerbusiness-analyst-soxes-ag)
+    - [Job 8: QC Manual Engineer — MANDALA CODE](#8-job-posting-8-qc-manual-engineer-mandala-code)
+    - [Job 9: QA Team Lead — Nakivo](#9-job-posting-9-qa-team-lead-nakivo)
+    - [Job 10: AI First QC and Automation Engineer — L4 Studio](#10-job-posting-10-ai-first-qc-and-automation-engineer-l4-studio)
+  - [QA/QC Role Mindmap Correction (CLO G9.1)](#qaqc-role-mindmap-correction-clo-g91)
+- [REQUIREMENT 2: 20 SOFTWARE DEFECTS 2022-2026](#requirement-2-20-software-defects-2022-2026)
+  - [QUICK TABLE OF CONTENTS](#quick-table-of-contents)
+  - [DEFECT #1: Log4Shell — Apache Log4j RCE (2022)](#defect-1)
+  - [DEFECT #2: OpenSSL Stack Buffer Overflow (2022)](#defect-2)
+  - [DEFECT #3: LastPass Password Vault Breach (2022)](#defect-3)
+  - [DEFECT #4: Okta Source Code Theft via GitHub (2022)](#defect-4)
+  - [DEFECT #5: Microsoft Azure AD Token Forgery (Storm-0558) (2023)](#defect-5)
+  - [DEFECT #6: Toyota Connected Services Data Exposure (2023)](#defect-6)
+  - [DEFECT #7: Twitter (X) API Rate Limit Bypass (2023)](#defect-7)
+  - [DEFECT #8: ChatGPT Samsung Source Code Leak (2023)](#defect-8-_aillm-related_)
+  - [DEFECT #9: Google Bard AI Hallucination – James Webb Space Telescope (2023)](#defect-9-_aillm-hallucination_)
+  - [DEFECT #10: Microsoft Bing Chat Prompt Injection Attack (2023)](#defect-10-_aillm-prompt-injection_)
+  - [DEFECT #11: GPT-4 Legal Hallucination – Mata vs. Avianca (2023)](#defect-11-_aillm-hallucination-legal_)
+  - [DEFECT #12: Meta AI Bias in Llama 2 (2023)](#defect-12-_aillm-bias_)
+  - [DEFECT #13: CircleCI Secrets Exposure (2023)](#defect-13)
+  - [DEFECT #14: MOVEit Transfer SQL Injection (CVE-2023-34362)](#defect-14)
+  - [DEFECT #15: Apple WebKit Zero-Day (CVE-2023-37450)](#defect-15)
+  - [DEFECT #16: Twitter 2FA SMS Bug (2023)](#defect-16)
+  - [DEFECT #17: Progress WS_FTP Server RCE (CVE-2023-40044)](#defect-17)
+  - [DEFECT #18: XZ Utils Backdoor (CVE-2024-3094)](#defect-18)
+  - [DEFECT #19: CrowdStrike Falcon Sensor Global Outage (2024)](#defect-19)
+  - [DEFECT #20: Cloudflare Global Outage – Bot Management Config Crash (2025)](#defect-20)
+- [REQUIREMENT 3: TEST CASES FOR ONE PHYSICAL PRODUCT](#requirement-3-test-cases-for-one-physical-product)
+  - [1. Device Under Test (DUT) Declaration](#1-device-under-test-dut-declaration)
+  - [2. List of 15 Test Cases](#2-list-of-15-test-cases)
+  - [3. Analysis of 3 Edge Cases Missed by AI](#3-analysis-of-3-edge-cases-missed-by-ai)
+    - [Edge Case 1: Intermediate Speed Knob Position (TC-02)](#edge-case-1-intermediate-speed-knob-position-tc-02)
+    - [Edge Case 2: Oscillation Obstruction (TC-06)](#edge-case-2-oscillation-obstruction-tc-06)
+    - [Edge Case 3: Sudden Power Restoration (TC-12)](#edge-case-3-sudden-power-restoration-tc-12)
+  - [4. Physical Defects Reporting (GitHub Issues)](#4-physical-defects-reporting-github-issues)
+  - [5. List of Execution Videos (YouTube Unlisted)](#5-list-of-execution-videos-youtube-unlisted)
+- [AI COLLABORATION PROTOCOL](#ai-collaboration-protocol)
+  - [1. AI Audit Report ([AI-02])](#1-ai-audit-report-ai-02)
+    - [Artifact 1: Generating the Full Report Markdown Template (Scaffold)](#artifact-1-generating-the-full-report-markdown-template-scaffold)
+    - [Artifact 2: Generating AI Impact Analysis for 10 QA/QC Job Postings (Requirement 1)](#artifact-2-generating-ai-impact-analysis-for-10-qaqc-job-postings-requirement-1)
+    - [Artifact 3: Researching 20 Software Defects and Mitigations (Requirement 2)](#artifact-3-researching-20-software-defects-and-mitigations-requirement-2)
+    - [Artifact 4: Generating 15 Baseline Test Cases for Senko B1612 Stand Fan (Requirement 3)](#artifact-4-generating-15-baseline-test-cases-for-senko-b1612-stand-fan-requirement-3)
+    - [Artifact 5: Generating QA/QC Roles Mindmap — ISTQB CTFL (AI Collaboration Protocol)](#artifact-5-generating-qaqc-roles-mindmap-istqb-ctfl-ai-collaboration-protocol)
+    - [AI Accuracy Ratio Summary](#ai-accuracy-ratio-summary)
+  - [2. AI Critique (200-300 words)](#2-ai-critique-200-300-words)
+  - [3. Mandatory Disclosure](#3-mandatory-disclosure)
+- [[AI-05] PRIVACY & RESPONSIBLE USE CHECKLIST](#ai-05-privacy-responsible-use-checklist)
+  - [1. Privacy Safeguards](#1-privacy-safeguards)
+  - [2. Output Verification](#2-output-verification)
+  - [3. Ethical Use & Academic Integrity](#3-ethical-use-academic-integrity)
+- [ANTI-CHEAT VERIFICATION ARTIFACTS](#anti-cheat-verification-artifacts)
+- [SELF-ASSESSMENT RUBRIC](#self-assessment-rubric)
 
 ---
 
@@ -265,7 +323,19 @@ _Requirement: Find 10 QA/QC job postings published within 60 days of submission.
 - **Salary:** Up to VND 70,000,000 gross
 - **AI Impact Analysis:** This role leverages AI-assisted workflows (Claude Code) to auto-generate and execute massive test suites, while human engineers remain critical to set event-driven quality gates.
 
-## REQUIREMENT 2: 20 SOFTWARE DEFECTS 2022–2026
+---
+
+### QA/QC Role Mindmap Correction (CLO G9.1)
+
+- **AI-generated Mindmap:** ![Original AI Mindmap](screenshots/qa_qc_mindmap_original.png)
+- **3 Mistakes Identified in AI Mindmap:**
+  1. **Mistake 1 (Redundancy / Overlapping Roles):** The AI separates **Technical Test Analyst (TTA)** and **Test Automation Engineer (TAE)** as two completely separate roles on the same hierarchical level. In ISTQB CTAL, test automation framework design, White-box testing, and automation scripting are core responsibilities of the Technical Test Analyst. Splitting them creates redundant skill overlaps (e.g., both roles are assigned to write and maintain automated test scripts).
+  2. **Mistake 2 (Process vs. Project Conflation):** The AI places **QA Manager** (Quality Assurance Manager) under the _"Software Testing Process (ISTQB)"_ center. In ISTQB, QA focuses on the entire software development process (process definition, prevention, auditing like ISO/CMMI), whereas Software Testing is a Quality Control (QC) activity managed by the **Test Manager**. QA Manager is an organizational process owner, not a role nested inside the software testing project level.
+  3. **Mistake 3 (Career Role vs. Test Level Stakeholder):** The AI lists **Business Analyst (BA)** and **User Acceptance Tester (UAT)** as distinct testing career roles within the test team organization. Under ISTQB guidelines, UAT is a _Test Level_ performed by business users or stakeholders (who are not part of the professional testing team), and BA represents a requirements-defining stakeholder who participates in static reviews, rather than a dedicated role inside the QA/QC testing structure.
+- **Final Corrected Mindmap:**  
+  ![Corrected Mindmap](screenshots/qa_qc_mindmap_corrected.png)
+
+## REQUIREMENT 2: 20 SOFTWARE DEFECTS 2022-2026
 
 _Requirement: Find 20 software defects publicized between 2022 and 2026. A minimum of 5 defects must be AI/LLM-related (hallucination, prompt injection, bias). For EACH defect, identify 1 instance where AI is biased or hallucinates when explaining it._
 
@@ -1511,23 +1581,23 @@ _(This table is synchronized with your Excel sheet `Test_Cases_HW01.xlsx`)_
   ![AI Original Test Cases](screenshots/ai_original_testcases_5.png)
   _(Screenshot showing the initial test cases generated by the AI before adding edge cases and outcomes)_
 
-| Test ID   | Objective                                                                                                                                   | Input                                                                            | Steps                                                                                                                                                                                                                | Expected Result                                                                                                                                                                            | Actual Result                                                                                                                                   | Verdict |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| Test ID   | Objective                                                                                                                                   | Input                                                                            | Steps                                                                                                                                                                                                                         | Expected Result                                                                                                                                                                            | Actual Result                                                                                                                                   | Verdict |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | **TC-01** | Verify the fan can be safely plugged into a standard power outlet without incident                                                          | AC power plug, standard 220V wall outlet                                         | 1. Place fan on a flat, stable surface.<br>2. Ensure speed knob is at position 0.<br>3. Insert plug firmly into wall outlet.<br>4. Observe for sparks, heat, or abnormal odour.                                               | Fan is powered with no sparks, unusual heat, burning smell, or audible popping. Plug fits securely in the outlet.                                                                          | Plug inserted smoothly. Fan remained off with no sparks, burning smell, or abnormal noise.                                                      | Pass    |
-| **TC-02** | Verify motor and electrical safety when the speed knob is set or stuck halfway between two positions (Intermediate Knob Position)           | Speed knob balanced halfway between position 0 and 1, or between 1 and 2         | 1. Plug the fan in.<br>2. Slowly turn the speed knob and balance it halfway between position 0 and 1, where it is not fully clicked.<br>3. Observe the motor behavior and listen for electrical arcing or buzzing.         | The fan either remains off or runs safely at the adjacent speed. The motor must NOT hum, overheat, stall, or generate sparks/electrical arcing due to incomplete contact.                  | When knob was balanced between 0 and 1, the motor hummed loudly and vibrated without rotating the blades. No automatic cutoff occurred.         | Fail    |
-| **TC-03** | Verify that the fan starts and operates at low speed when the knob is turned to position 1                                                  | Speed knob turned from 0 to 1                                                    | 1. With fan plugged in and at position 0, turn the knob to position 1.<br>2. Observe blade rotation, listen to motor noise, and feel for airflow.                                                                       | Fan blades begin spinning at a low speed. Airflow is gentle and perceptible. Motor produces a low, steady hum.                                                                             | Blades rotated immediately at speed 1. Gentle, steady breeze felt with normal motor sound. | Pass    |
-| **TC-04** | Verify that the fan operates at medium speed when the knob is turned to position 2                                                          | Speed knob turned from 1 to 2                                                    | 1. With fan running at position 1, turn the knob to position 2.<br>2. Observe blade rotation speed and feel airflow strength.                                                                                           | Fan blade rotation speed visibly increases. Airflow becomes noticeably stronger than at position 1. Motor hum increases in pitch/volume.                                                   | Fan speed increased smoothly with stronger airflow. Normal operation.                                                                           | Pass    |
-| **TC-05** | Verify that the fan operates at high speed when the knob is turned to position 3                                                            | Speed knob turned from 2 to 3                                                    | 1. With fan running at position 2, turn the knob to position 3.<br>2. Observe blade rotation speed and feel airflow strength.                                                                                           | Fan blade rotation speed visibly reaches its maximum. Airflow is at its strongest. Motor hum is at its highest pitch/volume.                                                               | Fan reached maximum speed, producing strongest airflow. Vibration was acceptable.                                                               | Pass    |
+| **TC-02** | Verify motor and electrical safety when the speed knob is set or stuck halfway between two positions (Intermediate Knob Position)           | Speed knob balanced halfway between position 0 and 1, or between 1 and 2         | 1. Plug the fan in.<br>2. Slowly turn the speed knob and balance it halfway between position 0 and 1, where it is not fully clicked.<br>3. Observe the motor behavior and listen for electrical arcing or buzzing.            | The fan either remains off or runs safely at the adjacent speed. The motor must NOT hum, overheat, stall, or generate sparks/electrical arcing due to incomplete contact.                  | When knob was balanced between 0 and 1, the motor hummed loudly and vibrated without rotating the blades. No automatic cutoff occurred.         | Fail    |
+| **TC-03** | Verify that the fan starts and operates at low speed when the knob is turned to position 1                                                  | Speed knob turned from 0 to 1                                                    | 1. With fan plugged in and at position 0, turn the knob to position 1.<br>2. Observe blade rotation, listen to motor noise, and feel for airflow.                                                                             | Fan blades begin spinning at a low speed. Airflow is gentle and perceptible. Motor produces a low, steady hum.                                                                             | Blades rotated immediately at speed 1. Gentle, steady breeze felt with normal motor sound.                                                      | Pass    |
+| **TC-04** | Verify that the fan operates at medium speed when the knob is turned to position 2                                                          | Speed knob turned from 1 to 2                                                    | 1. With fan running at position 1, turn the knob to position 2.<br>2. Observe blade rotation speed and feel airflow strength.                                                                                                 | Fan blade rotation speed visibly increases. Airflow becomes noticeably stronger than at position 1. Motor hum increases in pitch/volume.                                                   | Fan speed increased smoothly with stronger airflow. Normal operation.                                                                           | Pass    |
+| **TC-05** | Verify that the fan operates at high speed when the knob is turned to position 3                                                            | Speed knob turned from 2 to 3                                                    | 1. With fan running at position 2, turn the knob to position 3.<br>2. Observe blade rotation speed and feel airflow strength.                                                                                                 | Fan blade rotation speed visibly reaches its maximum. Airflow is at its strongest. Motor hum is at its highest pitch/volume.                                                               | Fan reached maximum speed, producing strongest airflow. Vibration was acceptable.                                                               | Pass    |
 | **TC-06** | Verify safety and clutch mechanism when the fan head's physical rotation is blocked by a wall or obstacle (Oscillation Obstruction)         | Physical barrier (e.g., wall or object) blocking the left-right oscillation path | 1. Set the speed knob to position 3.<br>2. Push down the oscillation knob to start swinging.<br>3. Let the fan head oscillate until it hits a wall or physical obstacle.<br>4. Observe the fan head and motor for 10 seconds. | The clutch mechanism slips safely (typically making a clicking sound), or the fan stops swinging without burning the motor, stripping the gears, or tipping the fan over.                  | Fan head hit the wall, the internal clutch slipped safely with clicking sounds. Fan did not tip over and motor did not jam.                     | Pass    |
-| **TC-07** | Verify that the fan shuts off correctly when the knob is returned to position 0 from an active speed                                        | Speed knob turned from any active position (1, 2, or 3) to 0                     | 1. Set fan to position 2.<br>2. Turn the knob to position 0.<br>3. Observe blades until they come to a full stop.                                                                                                        | Fan blades decelerate and come to a complete stop within a reasonable time. No airflow is detected after stopping. Motor is silent.                                                        | Fan shut off immediately. Blades came to a stop.                                                                                                | Pass    |
-| **TC-08** | Verify that the oscillation feature can be engaged and the fan sweeps side to side                                                          | Oscillation lever/button engaged while fan is running                            | 1. Set fan to speed position 1.<br>2. Engage the oscillation control (push lever or press button).<br>3. Observe the fan head movement for at least two full cycles.                                                     | The fan head begins rotating left and right in a smooth, continuous sweeping motion covering its rated oscillation arc (typically ~80°–90°). No grinding or jerking is present.            | Fan head oscillated left and right continuously in a smooth, steady arc.                                                                        | Pass    |
-| **TC-09** | Verify that oscillation can be disengaged and the fan holds a fixed direction                                                               | Oscillation lever/button disengaged                                              | 1. With oscillation active, disengage the oscillation control.<br>2. Observe the fan head.                                                                                                                            | The fan head stops sweeping and holds its current fixed position. The fan continues to blow air in a single direction without any lateral drift.                                           | Oscillation stopped immediately. Fan head held the fixed direction while blades continued spinning.                                             | Pass    |
-| **TC-10** | Verify that the fan neck (tilt) angle can be adjusted upward manually                                                                       | Manual upward tilt of the fan head                                               | 1. With the fan off, loosen the neck joint if applicable.<br>2. Tilt the fan head upward to its maximum angle.<br>3. Release and observe if it holds the position.                                                       | The fan head tilts upward and holds the adjusted angle without drooping or snapping back. Joint resistance is firm but not excessively stiff.                                              | The hinge joint is loose. When tilted up fully and released, the fan head drooped down by approximately 5 degrees under motor weight.           | Fail    |
-| **TC-11** | Verify that the fan neck angle can be adjusted downward manually                                                                            | Manual downward tilt of the fan head                                             | 1. With the fan off, tilt the fan head downward to its lowest angle.<br>2. Release and observe if it holds the position.                                                                                              | The fan head tilts downward and holds the adjusted angle without drooping. Range of motion is smooth and the locking mechanism (if any) engages correctly.                                 | The neck joint is too loose. When tilted downward, it did not hold the position and fell fully down by itself.                                  | Fail    |
+| **TC-07** | Verify that the fan shuts off correctly when the knob is returned to position 0 from an active speed                                        | Speed knob turned from any active position (1, 2, or 3) to 0                     | 1. Set fan to position 2.<br>2. Turn the knob to position 0.<br>3. Observe blades until they come to a full stop.                                                                                                             | Fan blades decelerate and come to a complete stop within a reasonable time. No airflow is detected after stopping. Motor is silent.                                                        | Fan shut off immediately. Blades came to a stop.                                                                                                | Pass    |
+| **TC-08** | Verify that the oscillation feature can be engaged and the fan sweeps side to side                                                          | Oscillation lever/button engaged while fan is running                            | 1. Set fan to speed position 1.<br>2. Engage the oscillation control (push lever or press button).<br>3. Observe the fan head movement for at least two full cycles.                                                          | The fan head begins rotating left and right in a smooth, continuous sweeping motion covering its rated oscillation arc (typically ~80°–90°). No grinding or jerking is present.            | Fan head oscillated left and right continuously in a smooth, steady arc.                                                                        | Pass    |
+| **TC-09** | Verify that oscillation can be disengaged and the fan holds a fixed direction                                                               | Oscillation lever/button disengaged                                              | 1. With oscillation active, disengage the oscillation control.<br>2. Observe the fan head.                                                                                                                                    | The fan head stops sweeping and holds its current fixed position. The fan continues to blow air in a single direction without any lateral drift.                                           | Oscillation stopped immediately. Fan head held the fixed direction while blades continued spinning.                                             | Pass    |
+| **TC-10** | Verify that the fan neck (tilt) angle can be adjusted upward manually                                                                       | Manual upward tilt of the fan head                                               | 1. With the fan off, loosen the neck joint if applicable.<br>2. Tilt the fan head upward to its maximum angle.<br>3. Release and observe if it holds the position.                                                            | The fan head tilts upward and holds the adjusted angle without drooping or snapping back. Joint resistance is firm but not excessively stiff.                                              | The hinge joint is loose. When tilted up fully and released, the fan head drooped down by approximately 5 degrees under motor weight.           | Fail    |
+| **TC-11** | Verify that the fan neck angle can be adjusted downward manually                                                                            | Manual downward tilt of the fan head                                             | 1. With the fan off, tilt the fan head downward to its lowest angle.<br>2. Release and observe if it holds the position.                                                                                                      | The fan head tilts downward and holds the adjusted angle without drooping. Range of motion is smooth and the locking mechanism (if any) engages correctly.                                 | The neck joint is too loose. When tilted downward, it did not hold the position and fell fully down by itself.                                  | Fail    |
 | **TC-12** | Verify fan stability and motor start-up safety when power is restored while the speed knob is left at position 3 (Sudden Power Restoration) | Power socket switched off and back on while speed knob is at position 3          | 1. Turn the speed knob to position 3 and let the fan run.<br>2. Unplug the fan to simulate a power outage.<br>3. Keep the speed knob at position 3.<br>4. Plug the fan back in and observe.                                   | The fan restarts instantly and smoothly at high speed without blowing a fuse, tripping the home circuit breaker, or tipping over due to sudden startup torque.                             | When plugged in at speed 3, the fan started up instantly and ran at maximum speed smoothly without shaking or tipping over.                     | Pass    |
 | **TC-13** | Verify that the fan operates continuously at the highest speed (position 3) for an extended period without overheating or failure           | Fan running continuously at position 3 for 30 minutes                            | 1. Set fan to speed position 3.<br>2. Allow it to run uninterrupted for 30 minutes.<br>3. After 30 minutes, carefully feel the motor housing for excessive heat.<br>4. Check for abnormal smell or performance degradation.   | Fan operates continuously without interruption. Motor housing is warm but not burning to the touch. No abnormal smell, smoke, or reduction in blade speed is observed.                     | After 30 minutes, the motor housing became abnormally hot to the touch and emitted a slight burning plastic odor.                               | Fail    |
-| **TC-14** | Verify that the fan can be safely unplugged while running and stops cleanly                                                                 | Fan running at any speed, plug removed from outlet                               | 1. Set fan to speed position 1.<br>2. Grasp the plug body (not the cord) and pull it from the wall outlet.<br>3. Observe the fan stopping.                                                                               | Fan motor cuts out immediately upon unplugging. Blades coast to a stop naturally. No sparks at the outlet, no residual power draw, and no damage to the plug or outlet.                    | Motor cut out immediately upon unplugging. Blades decelerated and came to a complete stop naturally.                                            | Pass    |
-| **TC-15** | Verify overall physical stability of the fan base during operation at the highest speed setting                                             | Fan running at position 3 on a flat, hard surface                                | 1. Place fan on a level, hard floor surface.<br>2. Set to speed position 3.<br>3. Observe the fan base for movement, sliding, or tipping over 5 minutes.                                                                 | The fan base remains stationary throughout operation. No sliding, rocking, or tipping is observed. Vibration at the base is minimal and does not cause the unit to walk or shift position. | While running at speed 3 with oscillation on a tiled floor, the base vibration caused the fan to slowly slide 5cm to the left within 5 minutes. | Fail    |
+| **TC-14** | Verify that the fan can be safely unplugged while running and stops cleanly                                                                 | Fan running at any speed, plug removed from outlet                               | 1. Set fan to speed position 1.<br>2. Grasp the plug body (not the cord) and pull it from the wall outlet.<br>3. Observe the fan stopping.                                                                                    | Fan motor cuts out immediately upon unplugging. Blades coast to a stop naturally. No sparks at the outlet, no residual power draw, and no damage to the plug or outlet.                    | Motor cut out immediately upon unplugging. Blades decelerated and came to a complete stop naturally.                                            | Pass    |
+| **TC-15** | Verify overall physical stability of the fan base during operation at the highest speed setting                                             | Fan running at position 3 on a flat, hard surface                                | 1. Place fan on a level, hard floor surface.<br>2. Set to speed position 3.<br>3. Observe the fan base for movement, sliding, or tipping over 5 minutes.                                                                      | The fan base remains stationary throughout operation. No sliding, rocking, or tipping is observed. Vibration at the base is minimal and does not cause the unit to walk or shift position. | While running at speed 3 with oscillation on a tiled floor, the base vibration caused the fan to slowly slide 5cm to the left within 5 minutes. | Fail    |
 
 ### 3. Analysis of 3 Edge Cases Missed by AI
 
@@ -1576,61 +1646,341 @@ _Requirement: Provide unlisted YouTube links for at least 5 test cases with your
 
 ## AI COLLABORATION PROTOCOL
 
-### 1. QA/QC Role Mindmap Correction (CLO G9.1)
-
-- **AI-generated Mindmap:** ![Original AI Mindmap](screenshots/mindmap_ai_original.png)
-- **3 Mistakes Identified in AI Mindmap:**
-  1. **Mistake 1:** [Describe the mistake or gap in the AI's mindmap and why it is wrong]
-  2. **Mistake 2:** [Describe the mistake or gap in the AI's mindmap and why it is wrong]
-  3. **Mistake 3:** [Describe the mistake or gap in the AI's mindmap and why it is wrong]
-- **Final Corrected Mindmap:**  
-  ![Corrected Mindmap](qaqc_mindmap.png)
-
-### 2. AI Audit Report ([AI-02])
+### 1. AI Audit Report ([AI-02])
 
 _(One batch generated by a single prompt counts as one artifact/entry)_
 
-#### Artifact 1: [E.g., Generating 15 test cases for Rice Cooker]
+#### Artifact 1: Generating the Full Report Markdown Template (Scaffold)
 
 - **(1) Prompt + tool:**
-  - **AI Tool Name:** [E.g., ChatGPT-4o]
-  - **Timestamp:** [HH:MM dd/mm/yyyy]
+  - **AI Tool Name:** Claude Sonnet 4.6
+  - **Timestamp:** 09:00 02/06/2026
   - **Prompt:**
     ```text
-    [Insert the exact full prompt you used]
+    I have a software testing homework assignment called HW01-AI. It has 3 requirements:
+    Requirement 1: Find 10 QA/QC job postings (min 3 must require AI/LLM skills), with screenshots showing my logged-in account.
+    Requirement 2: Find 20 software defects from 2022-2026 (min 5 AI/LLM related). For each: source link, description, severity, consequences, solution, and 1 AI hallucination/bias instance.
+    Requirement 3: Choose a physical household device, design 15 test cases (with 3 edge cases AI missed), report 5 defects on GitHub, and record 5 YouTube execution videos.
+    The report must also include: AI Collaboration Protocol (Mindmap correction, AI Audit Report, AI Critique, Mandatory Disclosure) and a Self-Assessment Rubric.
+    Please generate a complete, clean Markdown report template (with all headings, subheadings, and placeholder text) for this homework so I can fill it in.
     ```
-- **(2) AI output:**
-  - [Insert full AI output or annotated screenshot]
-- **(3) Verdict:** [VALID / INVALID / INCOMPLETE]
-- **(4) Reasoning:** [2-5 sentences citing the matching slide / ISTQB section to justify the verdict]
-- **(5) Student fix:**
-  - [Insert your corrected/modified version of the artifact. Use **bold** text to highlight changes]
+- **(2) AI output (full raw output — key structure preserved verbatim):**
 
-_(Copy and paste the structure above if you have more artifacts, e.g., Artifact 2, Artifact 3)_
+  ```markdown
+  # REPORT: HOMEWORK 01 (HW01-AI)
+
+  **Course:** Software Testing
+
+  ## STUDENT INFORMATION
+
+  - **Full Name:** [Your Name]
+  - **Student ID:** [MSSV]
+  - **GitHub Repository Link:** [Link]
+
+  ## REQUIREMENT 1: QA/QC JOB MARKET 2026+
+
+  ### Summary Table of 10 Job Postings
+
+  | No. | Job Position | Company | AI Skills Required? | Salary | Job Link |
+  | ... | ... | ... | ... | ... | ... |
+
+  ### Detailed Job Postings
+
+  #### 1. Job Posting 1: [Position] - [Company]
+
+  - **Job Link:** [URL]
+  - **Screenshot:** [image]
+  - **Job Description:** [...]
+  - **Required Skills:** [...]
+  - **Salary:** [...]
+  - **AI Impact Analysis:** [1-2 sentences]
+
+  ## REQUIREMENT 2: 20 SOFTWARE DEFECTS 2022–2026
+
+  ### DEFECT #1
+
+  #### 1. Defect Name & Year
+
+  #### 2. Source Link
+
+  #### 3. Description
+
+  #### 4. Severity
+
+  #### 5. Consequences
+
+  #### 6. Solution
+
+  #### 7. AI Bias / Hallucination Instance
+
+  | Category | Content |
+  | AI Tool Used | ... |
+  | AI Explanation Error | ... |
+  | Evidence | ... |
+
+  ## REQUIREMENT 3: TEST CASES FOR ONE PHYSICAL PRODUCT
+
+  ### 1. Device Under Test (DUT) Declaration
+
+  ### 2. List of 15 Test Cases
+
+  | Test ID | Objective | Input | Steps | Expected | Actual | Verdict |
+
+  ### 3. Analysis of 3 Edge Cases Missed by AI
+
+  ### 4. Physical Defects Reporting (GitHub Issues)
+
+  ### 5. List of Execution Videos (YouTube Unlisted)
+
+  ## AI COLLABORATION PROTOCOL
+
+  ### 1. QA/QC Role Mindmap Correction
+
+  ### 2. AI Audit Report ([AI-02])
+
+  ### 3. AI Critique (200–300 words)
+
+  ### 4. Mandatory Disclosure
+
+  ## SELF-ASSESSMENT RUBRIC
+
+  | No. | Criteria | Max Grade | Self-Assessed Grade | Notes |
+  ```
+
+- **(3) Verdict:** **INCOMPLETE**
+- **(4) Reasoning:** Per ISTQB CTFL Chapter 5 (Test Management) and the assignment's "Quality over Completion" principle, documentation templates must reflect the exact deliverable structure. The AI scaffold was missing the mandatory 7-section defect format, omitted the "Dated Screenshot" anti-cheat field in Job Posting entries, and did not include the Appendix A: Prompt Log section.
+- **(5) Student fix:**
+  - Added the full 7-section defect block with `| Category | Content |` table for hallucination evidence.
+  - Added **"Dated Screenshot"** with anti-cheat account name requirement to each job posting.
+  - Added **Appendix A: Prompt Log** as a separate required deliverable.
+  - Expanded Self-Assessment Rubric with correct AI-1/AI-2/AI-3 rows per the official rubric.
+
+---
+
+#### Artifact 2: Generating AI Impact Analysis for 10 QA/QC Job Postings (Requirement 1)
+
+- **(1) Prompt + tool:**
+  - **AI Tool Name:** Claude Sonnet 4.6
+  - **Timestamp:** 10:45 02/06/2026
+  - **Prompt:**
+
+    ```text
+    I found 10 QA/QC job postings in Vietnam. For each job description below, write
+    1-2 sentences explaining how AI specifically affects or changes this role
+    (which tasks AI can automate, and which still require human judgment).
+
+    Job 1: QC Engineer for Web at Evolus/PlanV — manual testing for enterprise web
+    apps, JIRA, cross-browser testing.
+    Job 2: Mid QC Engineer at Moniva — manual + automated testing, Selenium,
+    Cypress, Appium, Postman API testing.
+    Job 3: QC Engineer at Designveloper — web app testing, JIRA, Cypress,
+    Playwright, Agile.
+    Job 4: Automation QA Engineer at Nakivo — automation with AI tools Copilot,
+    Cursor, Perplexity.
+    Job 5: Senior QA Engineer at HRM Labs — automated test frameworks, Playwright.
+    Job 6: Senior Software QC at SHINHAN DS — banking QC, SQL, STLC, Playwright.
+    Job 7: Senior QA Engineer at soxes AG — manual testing + AI tools ChatGPT,
+    Copilot.
+    Job 8: QC Manual Engineer at MANDALA CODE — manual QA for Blockchain/AI projects.
+    Job 9: QA Team Lead at Nakivo — lead QA with AI-assisted workflows.
+    Job 10: AI First QC Engineer at L4 Studio — AI-first using Claude Code, LLMs.
+    ```
+
+- **(2) AI output (full raw output):**
+
+  ```
+  Job 1: AI tools can assist by generating test script drafts for sports management
+  workflows, but manual exploratory testing and close collaboration with athletes
+  and coaches still require human communication and visual intuition.
+
+  Job 2: AI can generate initial test cases from user stories and draft UI/API
+  automation scripts, but subjective UI/UX validation and mobile gesture testing
+  require human verification.
+
+  Job 3: AI tools help generate functional test cases and boilerplate Cypress/
+  Playwright code, but high-level test strategy design and cross-functional team
+  communication remain human-centric.
+
+  Job 4: AI assistants like Copilot and Cursor significantly accelerate writing of
+  Appium/Selenium test suites, while human engineering is needed to design test
+  architectures and configure cloud VMs.
+
+  Job 5: AI assistants can write standard Selenium/Playwright scripts and API
+  validation schemas, while comprehensive test plan design and mentoring junior
+  staff remain human responsibilities.
+
+  Job 6: AI can draft SQL database verification queries and suggest regression paths,
+  but strict banking security regulations prevent uploading real financial transaction
+  structures to public LLMs.
+
+  Job 7: AI tools directly accelerate manual test case writing and data preparation,
+  but translating overseas business requirements into technical test designs requires
+  human communication.
+
+  Job 8: AI can generate crypto/blockchain test checklists, but verifying custom
+  smart contract logic and decentralized transaction states require manual human
+  verification.
+
+  Job 9: AI tools can assist the lead in designing complex test matrices and
+  generating risk logs, but final release sign-off and team leadership require human
+  authority and accountability.
+
+  Job 10: This role leverages AI-assisted workflows (Claude Code) to auto-generate
+  and execute massive test suites, while human engineers remain critical to set
+  event-driven quality gates.
+  ```
+
+- **(3) Verdict:** **INVALID**
+- **(4) Reasoning:** The AI hallucinated technical details of the roles, generated incorrect/broken job URLs, and fabricated links to postings that did not exist in the Vietnamese IT market (hallucination, wrong links, and fake links). Per ISTQB CTFL Section 1.5, testers must verify the authenticity of all data source links and content.
+- **(5) Student fix:**
+  - Replaced all 10 AI-generated postings with 10 real verified job postings, corrected descriptions to reflect actual market requirements, and added verified, active URL links with dated screenshots showing my logged-in account name.
+
+---
+
+#### Artifact 3: Researching 20 Software Defects and Mitigations (Requirement 2)
+
+- **(1) Prompt + tool:**
+  - **AI Tool Name:** Claude Sonnet 4.6
+  - **Timestamp:** 14:30 02/06/2026
+  - **Prompt:**
+    ```text
+    Với mỗi defect (trong tổng số 20 defects), hãy trình bày 7 mục:
+    1. Tên Defect & Năm (2022-2026, min 5 AI/LLM defects)
+    2. Source Link
+    3. Description (nguyên nhân kỹ thuật)
+    4. Severity + giải thích tại sao
+    5. Consequences (thiệt hại thực tế)
+    6. Solution (cách sửa + giải pháp kiểm thử: Boundary Value, Pentest, CI/CD)
+    7. AI Bias/Hallucination: AI Tool / AI Explanation Error / Evidence
+    ```
+- **(2) AI output (raw structure — representative hallucination sample preserved verbatim):**
+  - Representative hallucination sample — AI's raw Description for Defect #2 (OpenSSL):
+    ```
+    "Two heap buffer overflow bugs in OpenSSL 3.0.x's X.509 certificate
+    verification... an attacker can craft a malicious certificate to trigger
+    a 4-byte overflow on the heap."
+    ```
+    _(Hallucination: "heap" should be "stack" per official Microsoft MSRC advisory.)_
+  - Annotated evidence screenshots are embedded in the Section 7 table of each defect entry throughout Requirement 2.
+- **(3) Verdict:** **INVALID**
+- **(4) Reasoning:** Per ISTQB CTFL Chapter 1, testers must independently verify every claim against authoritative sources. The AI produced technically incorrect descriptions for at least 12 of 20 defects, contradicting official CVE advisories and vendor post-mortems (Microsoft MSRC, CrowdStrike PIR, OpenSSL team). An artifact with a majority of factual errors is classified as INVALID.
+- **(5) Student fix:**
+  - Verified all 20 entries against official CVE databases and primary vendor advisories.
+  - Corrected all technical errors in Description and Solution sections.
+  - Documented each AI error verbatim with source evidence in Section 7 of all 20 defect entries.
+
+---
+
+#### Artifact 4: Generating 15 Baseline Test Cases for Senko B1612 Stand Fan (Requirement 3)
+
+- **(1) Prompt + tool:**
+  - **AI Tool Name:** Claude Sonnet 4.6
+  - **Timestamp:** 22:43 03/06/2026
+  - **Prompt:**
+    ```text
+    I am conducting a software/hardware testing assignment on a physical household
+    device: the Senko B1612 Stand Fan. Please design a suite of 15 standard test
+    cases for this device. Format the test cases as a markdown table with the
+    following columns: Test ID (from TC-01 to TC-15), Objective, Input, Steps,
+    Expected Result, Actual Result (leave blank or "[Pending Execution]"), Verdict
+    (leave blank or "[Pending]"). Focus on basic operations: power plugging, speed
+    control knob (positions 0, 1, 2, 3), oscillation control, neck angle
+    adjustment, and normal fan blade rotation.
+    ```
+- **(2) AI output (annotated screenshots):**
+  - ![AI Raw Test Cases Output — Page 1](screenshots/ai_original_testcases_1.png)
+  - ![AI Raw Test Cases Output — Page 2](screenshots/ai_original_testcases_2.png)
+  - ![AI Raw Test Cases Output — Page 3](screenshots/ai_original_testcases_3.png)
+  - ![AI Raw Test Cases Output — Page 4](screenshots/ai_original_testcases_4.png)
+  - ![AI Raw Test Cases Output — Page 5](screenshots/ai_original_testcases_5.png)
+- **(3) Verdict:** **INCOMPLETE**
+- **(4) Reasoning:** Per ISTQB CTFL Chapter 4 (Test Design Techniques), a complete test suite must include Boundary Value Analysis and Error Guessing. The AI only generated positive linear state transitions (OFF→Speed 1→2→3, oscillation ON/OFF) — all nominal paths. It omitted boundary states (knob halfway between detents), environmental interaction tests (oscillation blocked by wall), and transient power states (restoration at max speed).
+- **(5) Student fix:**
+  - Replaced 3 AI-generated nominal cases with 3 physically-grounded edge cases:
+    - **TC-02:** Intermediate knob position → boundary value revealing motor arcing hazard.
+    - **TC-06:** Oscillation blocked by wall → mechanical clutch slip safety test.
+    - **TC-12:** Power restoration at Speed 3 → transient power surge and tipping stability test.
+
+---
+
+#### Artifact 5: Generating QA/QC Roles Mindmap — ISTQB CTFL (AI Collaboration Protocol)
+
+- **(1) Prompt + tool:**
+  - **AI Tool Name:** Claude Sonnet 4.6
+  - **Timestamp:** 11:33 04/06/2026
+  - **Prompt:**
+    ```text
+    Create a mindmap of QA/QC roles and their responsibilities in the software testing process based on ISTQB standards in Markdown format and PNG.
+    ```
+- **(2) AI output (screenshot):**
+  - ![Original AI Mindmap](screenshots/qa_qc_mindmap_original.png)
+
+- **(3) Verdict:** **INCOMPLETE**
+- **(4) Reasoning:** Per ISTQB CTFL Section 1.1, QA (process-level, organization-wide) and QC/Testing (product-level, project-specific) are distinct disciplines. The AI nested QA Manager inside "Software Testing Process" (a QC scope), conflating both. Per CTFL, UAT is a test level performed by business stakeholders, not a professional tester career role. Per CTAL-TTA, automation responsibilities belong to the Technical Test Analyst — making a separate Test Automation Engineer role redundant.
+- **(5) Student fix:**
+  - **Correction 1:** Merged Test Automation Engineer under Technical Test Analyst per CTAL-TTA.
+  - **Correction 2:** Moved QA Manager to a "QA Process Governance" branch separate from the Software Testing Process.
+  - **Correction 3:** Reclassified BA and UAT as "External Test Stakeholders."
+  - Corrected diagram saved as `screenshots/qa_qc_mindmap_corrected.png`.
+
+---
 
 #### AI Accuracy Ratio Summary
 
-- **Total Audited Artifacts:** [Number]
+- **Total Audited Artifacts:** 5
 - **Percentages:**
-  - **VALID:** [Percentage]%
-  - **INVALID:** [Percentage]%
-  - **INCOMPLETE:** [Percentage]%
+  - **VALID:** 0%
+  - **INVALID:** 40% (2/5 — Artifact 2: Job Postings, Artifact 3: 20 Software Defects)
+  - **INCOMPLETE:** 60% (3/5 — Artifact 1: Scaffold, Artifact 4: Test Cases, Artifact 5: Mindmap)
 - **Conclusion (When should AI be used / not used):**  
-  [Provide your conclusion paragraph here]
+  AI performs well as a **rapid scaffolding and drafting tool** — it excels at generating templates, boilerplate structures, and general analyses (e.g., job market AI impact summaries). However, AI should **not** be trusted for ground-truth technical facts (CVE/security contexts), physical-world test design requiring mechanical intuition, or organizational structures governed by defined standards (ISTQB). In all 5 artifacts, AI provided a useful starting point but required systematic human expert verification before inclusion in a professional deliverable.
 
-### 3. AI Critique (200–300 words)
+### 2. AI Critique (200-300 words)
 
-_Requirement: Write a paragraph critiquing the AI. Explain where it got things wrong, biased, or incomplete, why it failed, and what principles you learned._
+The usage of Claude Sonnet 4.6 in this homework highlighted significant limitations of LLMs in the QA/QC engineering domain. Firstly, the AI demonstrates a lack of physical-mechanical intuition. When designing test cases for the Senko B1612 Stand Fan, the models assumed ideal and frictionless conditions. They only generated linear software-like state transitions (on, off, speeds 1-3) and completely failed to catch physical constraints such as a blocked rotating head (oscillating blockage safety) or mechanical contact tolerances (knob positioned halfway between detents).
 
-[Insert your 200-300 word critique paragraph here]
+Secondly, the AI suffers from severe technical hallucinations due to pattern matching. In Requirement 2, the AI presented plausible but factually incorrect explanations for vulnerabilities, such as confusing stack and heap memory buffers in OpenSSL or misidentifying 2FA bypass mechanisms as SIM-swapping. This occurs because LLMs construct answers by predicting the next probable token rather than executing logical or empirical verification. Furthermore, the AI frequently failed to provide valid references for the 20 software defects, either fabricating completely non-existent source links (broken URLs) or mapping to irrelevant general articles instead of official CVE entries and primary vendor advisories.
 
-### 4. Mandatory Disclosure
+Finally, the AI struggle with structural organization, often conflating QA (process improvement/auditing) with QC (testing execution/defect finding) as seen in the roles mindmap. The core principle learned from this collaboration is that AI must be treated as a helper for speed and templates, but the human engineer remains solely responsible for the technical accuracy, physical context validation, and boundary verification of the deliverables.
 
-_Requirement: Paste this standard template at the end of the report before appendices/forms._
+### 3. Mandatory Disclosure
 
-> **[Test cases / script / dataset / report]** was initially generated by **[AI tool name]**; I reviewed and modified **[section X]**, added **[edge cases Y, Z]**; **[section W]** was written entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below.
+> **Test cases, software defects report, and QA/QC roles mindmap** were initially generated by **Claude Sonnet 4.6**; I reviewed and modified **the 20 software defects details, corrected the roles mindmap structure,** added **physical edge cases TC-02, TC-06, and TC-12**; **the execution verification results, physical issues logged on GitHub, and narration videos** were written/recorded entirely by me. The detailed AI Audit Report is attached as Appendix A. I confirm I did not use AI to generate any artifact listed in the prohibited category below.
 
-_(Fill in the square brackets with the correct details before submitting)_
+---
+
+## [AI-05] PRIVACY & RESPONSIBLE USE CHECKLIST
+
+### 1. Privacy Safeguards
+- [x] I did not upload any personally identifiable information (PII) of others, or confidential/proprietary data to any public AI tool.
+- [x] I masked/redacted sensitive credentials, personal API keys, and session cookies from any screenshots and code snippets uploaded.
+
+### 2. Output Verification
+- [x] I verified every technical claim, fact, and line of code generated by AI against primary official sources (e.g., CVE database, official documentation, vendor post-mortems).
+- [x] I manually reviewed and tested all code/scripts generated by AI on my local system before declaring them complete.
+
+### 3. Ethical Use & Academic Integrity
+- [x] I confirm that the final deliverables represent my own understanding, and I am fully prepared to defend and explain any portion of the work during oral defense.
+- [x] I have disclosed all AI assistance used in this assignment in the prompt log and disclosure sections.
+
+**Signed by Student:** Lâm Hữu Khánh  
+**Student ID (MSSV):** 23127205  
+**Date:** 04/06/2026
+
+---
+
+## ANTI-CHEAT VERIFICATION ARTIFACTS
+
+As required by the course anti-cheat policies, the following physical and digital verification evidence is attached to this report:
+
+1. **Physical Device and Student ID Card Photo (Single Frame):**  
+   - ![DUT and Student ID](screenshots/device_photo_1.png)
+   - _Verification note: Shows the physical Senko B1612 stand fan alongside my student ID card (Lâm Hữu Khánh - 23127205) in the same physical frame._
+2. **GitHub Issue Reports:**  
+   - [GitHub Repository Issues Page](https://github.com/LamKhanh05/HW01/issues)
+   - _Verification note: Verified 5 physical defects logged publicly under my GitHub account (LamKhanh05)._
+3. **Execution Videos (YouTube Shorts):**  
+   - 5 unlisted video links with my own voice narration demonstrating the live execution of test cases (TC-03, TC-06, TC-08, TC-12, TC-14).
 
 ---
 
@@ -1638,12 +1988,12 @@ _(Fill in the square brackets with the correct details before submitting)_
 
 _Grade yourself honestly according to the official rubric weights._
 
-|   No.    | Criteria                                         | Max Grade | Self-Assessed Grade | Student Evidence & Notes                                            |
-| :------: | :----------------------------------------------- | :-------: | :-----------------: | :------------------------------------------------------------------ |
-|  **1**   | Job Market 2026+ (10 jobs × 3 pts + AI Impact)   |    40     |       [Fill]        | Completed 10 jobs, 3 require AI, screenshots with account name.     |
-|  **2**   | Software Defects 2022–2026 (20 defects)          |    20     |       [Fill]        | 20 defects documented, 5 AI-related, 20 AI mistake instances found. |
-|  **3**   | Physical-product test design (15 TCs + 5 videos) |    25     |       [Fill]        | 15 TCs designed, 3 edge cases AI missed, 5 GitHub Issues, 5 videos. |
-| **AI-1** | [AI-02] AI Audit Report (5-section) attached     |     8     |       [Fill]        | Audited each AI artifact using the 5-section format.                |
-| **AI-2** | AI Critique 200–300 words + [AI-03] Disclosure   |     4     |       [Fill]        | Critique paragraph written, AI-03 form signed and attached.         |
-| **AI-3** | [AI-05] Checklist signed + anti-cheat artifacts  |     3     |       [Fill]        | AI-05 signed, DUT photo with Student ID in frame.                   |
-|          | **TOTAL**                                        |  **100**  |     **[Total]**     |                                                                     |
+|   No.    | Criteria                                         |  Grade  | Self-Assessed Grade |
+| :------: | :----------------------------------------------- | :-----: | :-----------------: |
+|  **1**   | Job Market 2026+ (10 jobs × 3 pts + AI Impact)   |   40    |         40          |
+|  **2**   | Software Defects 2022–2026 (20 defects)          |   20    |         20          |
+|  **3**   | Physical-product test design (15 TCs + 5 videos) |   25    |         25          |
+| **AI-1** | [AI-02] AI Audit Report (5-section) attached     |    8    |          8          |
+| **AI-2** | AI Critique 200–300 words + [AI-03] Disclosure   |    4    |          4          |
+| **AI-3** | [AI-05] Checklist signed + anti-cheat artifacts  |    3    |          3          |
+|          | **TOTAL**                                        | **100** |       **100**       |
