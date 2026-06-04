@@ -1,0 +1,89 @@
+﻿commit d4a3ebcc99f30e0f9661d1fe6c48a802fe187302
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 19:02:55 2026 +0700
+
+    docs(self-assessment): commit self-assessment PDF report
+
+commit ed4997e638cc55fbd20623325247daa0fc94c2aa
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 19:01:08 2026 +0700
+
+    docs(pdf): commit final compiled PDFs and verification screenshots
+
+commit b994de6540113296b0000f817058e3756ebb2975
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 19:00:58 2026 +0700
+
+    docs(privacy): simplify AI-05 headings and add prompt log and disclosure links
+
+commit 7cbeb6d6d0980f586a296c9d8d10ef94422f4d43
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 19:00:40 2026 +0700
+
+    docs(audit): sync prompt log and raw output details for Artifact 2 & 3
+
+commit 3a4b3e272c9e2ff57aed84bce7c2a96e2c1c18ec
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 16:39:10 2026 +0700
+
+    docs(templates): add separate AI-02, AI-03, AI-05 documents and Self_Assessment.md
+
+commit 6303c64f7b41d4535211fdc44ce99828d72faaaf
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 16:39:04 2026 +0700
+
+    docs(report): rename main report to Report.md and add FullPromptLog.md
+
+commit 4b499a444879168e1f771d15cb23a854688c6526
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 16:38:16 2026 +0700
+
+    docs(anti-cheat): add device photo, video links list, and mindmap files
+
+commit 1e07093a062fa4829ccefd40d0e6a4498b703afe
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 16:38:11 2026 +0700
+
+    refactor(excel): rename test suites and reports to standard names
+
+commit a6fce43dd3acbb1c9c3cbb376578e29939023d4f
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 15:18:57 2026 +0700
+
+    feat(testing): add Excel test suites and summary report
+
+commit 6614b1dfe231bbb6b28bf66ecdc5d6e8afc17be4
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 15:18:17 2026 +0700
+
+    docs(report): update full assignment report details and Table of Contents
+
+commit 31ff74e6c796f88285918d0a8c7f19ae85379536
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 15:18:07 2026 +0700
+
+    docs(assets): add QA/QC roles mindmap screenshots
+
+commit 9da695b6ca10582c9b7a2c26bfd4033a41535cd1
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Thu Jun 4 10:59:51 2026 +0700
+
+    Req 3: Added test cases and video links for physical-product testing
+
+commit 508b8ee3a7f93266333789c9216a106e24916f37
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Wed Jun 3 21:16:55 2026 +0700
+
+    Req 2: Added 20 software defects details
+
+commit e7ac06bc3137689e67d9d30b10c626cc5ec0ff25
+Author: LamKhanhDepzai <lamhuukhanh69@gmail.com>
+Date:   Tue Jun 2 21:59:25 2026 +0700
+
+    Req 1: Added 10 job listings screenshots and details
+
+commit 6696c203785aa2812497258529c211727c3617ac
+Author: daoking05 <152291219+LamKhanh05@users.noreply.github.com>
+Date:   Mon Jun 1 20:41:50 2026 +0700
+
+    Initial commit
